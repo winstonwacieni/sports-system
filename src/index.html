@@ -30,23 +30,29 @@
 </head>
 <body>
 	<header>
-		<nav>
 			<div class="logo">
-				<a href="index-2.html"><img src="img/logo.jpg" alt="Sport Template"></a>
+				<img src="img/logo no bg.png" alt="Sport Template" >
+				<h1>YOUTH, SPORTS, GENDER, CULTURE AND SOCIAL SERVICES</h1>
 			</div>
 
+		 <nav>
 			<ul>
-				<li class="active"><a href="index-2.html">Home</a></li>
+				<li class="active"><a href="index.html">Home</a></li>
 				<li><a href="#">Pages</a>
 					<ul>
-		g				<li><a href="about.html">About</a></li>	
+						<li><a href="about.html">About</a></li>	
 						<li><a href="gallery.html">Gallery</a></li>	
 						<li><a href="faq.html">FAQ</a></li>
 						<li><a href="404.html">Services</a></li>
 						<li><a href="soon.html">Comming soon</a></li>
 					</ul>				
 				</li>
-				<li><a href="blog.html">Blog</a>
+				<li><a href="blog.html">Departments</a>
+					<ul>
+						<li><a href="blog-post.html">Blog Post</a></li>
+					</ul>	
+				</li>
+				<li><a href="blog.html">Games</a>
 					<ul>
 						<li><a href="blog-post.html">Blog Post</a></li>
 					</ul>	
@@ -68,8 +74,14 @@
 					</ul>				
 				</li>
 				<li><a href="contact.html">Contact</a></li>
+				<li class="search">
+					<form action="/search" method="get">
+                     <input type="search" name="q" placeholder="search...">
+					 <button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				</li>
 			</ul>
-		</nav>
+		 </nav>
 
 		<div class="nav-mobile">
 			<ul class="nav-mobile-menu">
@@ -113,15 +125,15 @@
 				</li>
 			</ul>								
 		</div>
-
-		<div class="clearfix header-content">
+	</header>
+	<section class="hero-section">
+		<div class="clearfix-header-content">
 			<h1>A Culture of Sports</h1>
 			<h2>Embu Sports Updates</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, placeat, officia, et, quas ipsam tempora alias libero quaerat beatae pariatur odit recusandae voluptas autem totam similique corrupti ex corporis distinctio.</p>
 			<a href="#" class="button yellow-bg">Watch our video</a>
 		</div>
-
-	</header>
+	</section>
 
 	<section class="sport-news">
 
@@ -240,7 +252,7 @@
 
 		</div>
 
-		<div class="m-12">
+		<!--<div class="m-12">
 
 			<div class="m-06 bg-01">
 				<div class="module-content content">
@@ -268,11 +280,11 @@
 				</div>									
 			</div>	
 
-		</div>							
+		</div> -->					
 	</section>
 
 	<section>
-		<div class="m-12">
+		<div class="m-12" id="news-5">
 			<div class="m-03">
 				<div class="module-content">							
 					<a href="blog-post.html"><h2>Kirimari ward MCA Hon. xyz Donates some colourful games kits to the Ladies' Volleyball teams</h2></a>				
@@ -671,7 +683,7 @@
 					</ul>				
 				</div>
 			</div>
-			<div class="m-03 bg-grey">
+			<div class="m-03">
 				<div class="module-content">
 					<h4>Social</h4>
 					<ul class="social">
@@ -683,7 +695,14 @@
 				</div>
 			</div>
 		</div>
+		<div class="copyright bg-grey">
+			<p>Embu County Government©|all rights reserved</p>
+		</div>
+		<div class="dev bg-grey">
+			<p>developed by ICT department</p>
+		</div>
 	</footer>
+	
 	<script src="js/fluidvids.js"></script>	
 </body>
 
