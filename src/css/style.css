@@ -531,22 +531,26 @@ body:not(.mobile) #stickynav{
 	color: #E7BF3A;
 }
 /*clearfix header-content*/
-.hero-section{
-  background: url("../src/img/header-bg-1.jpg")center top no-repeat fixed;
-  background-size: cover;
-  height: 450px;
-  text-align: center;
-}
-.hero-section h1,h2,p{
+.hero-section {
+	background: url("/src/img/header-bg-1.jpg") center top no-repeat fixed;
+	background-size: cover;
+	height: 450px;
+	text-align: center;
+	color: #ffffff;
+  }
+  
+  .hero-section h1, .hero-section h2, .hero-section p {
 	margin-bottom: 64px;
-}
-.hero-section p{
-  padding: 0px 80px 0px 80px  ;
-}
-.hero-section h1{
+  }
+  
+  .hero-section p {
+	padding: 0 80px;
+  }
+  
+  .hero-section h1 {
 	padding-top: 24px;
-}
-
+  }
+  
 /*  TITLES   ============================================================================= */
 .heading {
 	width: 100%;
