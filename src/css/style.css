@@ -1952,7 +1952,7 @@ footer ul.social li a:hover i {
 }
 footer .copyright{
 	text-align: center;
-	background:#fdf5e6;
+	background:#403469;
 }
 footer .copyright p{
 	margin-bottom: 0;
@@ -1961,4 +1961,7 @@ footer .copyright p{
 footer .m-03{
 	display: flex;
 	align-self: flex-end;
+}
+footer .middle-text{
+	color: #dff700;
 }
