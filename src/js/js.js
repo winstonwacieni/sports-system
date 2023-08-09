@@ -18,26 +18,26 @@ $(document).ready(function($) {
 
 	$('.all-sport-menu, .radio-menu').hide();
 // Sport Menu
-	$('.sport-title').on('click', function(){
-		$('.all-sport-menu').stop().toggle();
-		$('i.sport-icon').toggleClass("fa-chevron-right").toggleClass("fa-chevron-down");
-	});
+//	$('.sport-title').on('click', function(){
+//$('.all-sport-menu').stop().toggle();
+//		$('i.sport-icon').toggleClass("fa-chevron-right").toggleClass("fa-chevron-down");
+//	});
 
-	$('.sport-menu').mouseleave( function(){
-		$('.all-sport-menu').hide();
-		$('i.sport-icon').addClass("fa-chevron-right").removeClass("fa-chevron-down");
-	});
+//	$('.sport-menu').mouseleave( function(){
+//		$('.all-sport-menu').hide();
+//		$('i.sport-icon').addClass("fa-chevron-right").removeClass("fa-chevron-down");
+//	});
 // Sport Radio
-	$('.radio-title').on('click', function(){
-		$('.radio-menu').stop().toggle();
-		$('i.radio-icon').toggleClass("fa-chevron-right").toggleClass("fa-chevron-down");
+//	$('.radio-title').on('click', function(){
+//		$('.radio-menu').stop().toggle();
+//		$('i.radio-icon').toggleClass("fa-chevron-right").toggleClass("fa-chevron-down");
 
-	});
+//	});
 
-	$('.radio-title').mouseleave( function(){
-		$('.radio-menu').hide();
-		$('i.radio-icon').addClass("fa-chevron-right").removeClass("fa-chevron-down");
-	});
+//	$('.radio-title').mouseleave( function(){
+//		$('.radio-menu').hide();
+//		$('i.radio-icon').addClass("fa-chevron-right").removeClass("fa-chevron-down");
+//	});
 
 // Accordion Standart
 	$('.accordion-standart').each(function() { 
@@ -70,7 +70,7 @@ $(document).ready(function($) {
 		$(this).find('li').on('mouseenter', function() { 
 		var index = $(this).parent().children().index($(this)); 
 		$(this).addClass('active').siblings('.active').removeClass('active'); 
-		$(this).closest('.module-content').find('.tab-content div').eq(index).show().siblings().hide(); 
+		$(this).closest('.score-table-content').find('.tab-content div').eq(index).show().siblings().hide(); 
 		}); 
 	});
 
@@ -83,7 +83,7 @@ $(document).ready(function($) {
 		$(this).find('li').on('click', function() { 
 		var index = $(this).parent().children().index($(this)); 
 		$(this).addClass('active').siblings('.active').removeClass('active'); 
-		$(this).closest('.module-content').find('.tab-content div').eq(index).show().siblings().hide(); 
+		$(this).closest('.score-table-content').find('.tab-content div').eq(index).show().siblings().hide(); 
 		}); 
 	});
 

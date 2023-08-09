@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>Sport Template</title>
+	<title>Sports News</title>
 
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"/>
@@ -37,8 +37,8 @@
 
 		 <nav>
 			<ul>
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="#">Pages</a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a>
 					<ul>
 						<li><a href="about.html">About</a></li>	
 						<li><a href="gallery.html">Gallery</a></li>	
@@ -52,12 +52,20 @@
 						<li><a href="blog-post.html">Blog Post</a></li>
 					</ul>	
 				</li>
-				<li><a href="blog.html">Games</a>
+				<li><a href="#">Games</a>
 					<ul>
-						<li><a href="blog-post.html">Blog Post</a></li>
+						<li><a href="sport.html">Football</a></li>
+						<li><a href="sport.html">Basketball</a></li>
+						<li><a href="sport.html">Volleyball</a></li>
+						<li><a href="sport.html">Rugby</a></li>
 					</ul>	
 				</li>
-				<li><a href="#">Games Store</a>
+				<li><a href="blog.html">News</a>
+					<ul>
+						<li><a href="blog.html">Blog Post</a></li>
+					</ul>	
+				</li>
+				<!--<li><a href="#">Games Store</a>
 					<ul>
 						<li><a href="modules.html">Modules</a></li>
 						<li><a href="accordion.html">Accordion</a></li>
@@ -72,7 +80,7 @@
 						<li><a href="tagline-boxes.html">Tagline Boxes</a></li>
 						<li><a href="full-width.html">Typography</a></li>					
 					</ul>				
-				</li>
+				</li>-->
 				<li><a href="contact.html">Contact</a></li>
 				<li class="search">
 					<form action="/search" method="get">
@@ -85,7 +93,7 @@
 
 		<div class="nav-mobile">
 			<ul class="nav-mobile-menu">
-				<li class="active"><a href="index.html">Home</a></li>			
+				<li><a href="index.html">Home</a></li>			
 				<li><div>Pages <i class="fa fa-chevron-right"></i></div>
 					<ul>
 						<li><a href="about.html">About</a></li>	
@@ -127,10 +135,9 @@
 		</div>
 	</header>
 	<section class="hero-section">
+		<h1>Embu County Sports Updates</h1>
 		<div class="clearfix-header-content">
-			<h1>Embu County Sports Updates</h1>
-			<h2>A Culture of Sports</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, placeat, officia, et, quas ipsam tempora alias libero quaerat beatae pariatur odit recusandae voluptas autem totam similique corrupti ex corporis distinctio.</p>
+			<h2>Welcome to the official sports website.</h2>
 			<a href="#" class="button yellow-bg">Watch our video</a>
 		</div>
 	</section>
@@ -150,22 +157,7 @@
 		</div>			
 		<div class="m-01 sport">
 			<div class="sport-content"><a href="sport.html">Rugby</a></div>
-		</div>		
-		<div class="m-01 sport">
-			<div class="sport-content"><a href="sport.html">Tennis</a></div>
-		</div>	
-		<div class="m-01 sport">
-			<div class="sport-content"><a href="sport.html">Golf</a></div>
-		</div>	
-		<div class="m-01 sport">
-			<div class="sport-content"><a href="sport.html">Athletics</a></div>
-		</div>	
-		<div class="m-01 sport">
-			<div class="sport-content"><a href="sport.html">Chess</a></div>
-		</div>	
-		<div class="m-01 sport">
-			<div class="sport-content"><a href="sport.html">Highschool Games</a></div>
-		</div>												
+		</div>													
 	</section>
 
 	<section class="bg-orange">
@@ -384,7 +376,7 @@
 			<div class="m-03 bg-dark-blue">
 				<div class="module-content">
 					<div class="title-default">
-						<h2>Scores Table</h2>	
+						<h2>League Table</h2>	
 					</div>				
 					<table class="table-scores">
 						<tr class="t-header">
@@ -426,7 +418,7 @@
 					</table>	
 				</div>		
 			</div>	
-
+			
 		</div>
 	</section>
 	
@@ -467,8 +459,8 @@
 		</div>
 	</section>
 
-	<section class="bg-dark-blue">
-		<div class="m-06 bg-orange">						
+	<section class="updated-score bg-dark-blue">
+		<!--<div class="m-06 bg-orange">						
 			<div class="owl-carousel owl-theme" data-items="2" data-auto-play="true">
 				<div class="item">				
 					<div class="module-content content">							
@@ -548,10 +540,10 @@
 					</div>
 				</div>																
 			</div>
-		</div>	
+		</div>-->	
 
-		<div class="m-06 bg-dark-blue">
-			<div class="module-content">
+		<div class=" score-table m-06 bg-dark-blue">
+			<div class="score-table-content">
 
 				<div class="title-default">
 					<h2>Scores Table</h2>	
@@ -653,13 +645,118 @@
 					</div>
 				</div>
 			</div>
-		</div>																										
-	</section>
+		</div>
+		<div class=" score-table m-06 bg-dark-blue">
+			<div class="score-table-content">
+		       <div class="title-default">
+			      <h2>Scores Table</h2>	
+		       </div>
+
+		        <div class="tab-dark-blue">
+			        <div class="m-03">
+				        <ul class="vertical tab-nav click-tab">
+					        <li><h4>Yesterday</h4></li>
+					        <li><h4>Today</h4></li>
+					        <li><h4>Tomorrow</h4></li>
+				        </ul>
+			        </div>
+			        <div class="m-09">
+				      <div class="tab-content ">
+					    <div>			
+						    <table class="table-scores">
+							    <tr>
+								    <td>12:45</td>
+								    <td>Man City</td>
+								    <td><span>4-1</span></td>
+								    <td>Southampton</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+							    <tr>
+								    <td>12:45</td>
+								    <td>A Villa</td>
+								    <td><span>1-2</span></td>
+								    <td>Fulham</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+							    <tr>
+								    <td>12:45</td>
+								    <td>Cardiff</td>
+								    <td><span>0-3</span></td>
+								    <td>C Palace</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>	
+							    <tr>
+								    <td>12:45</td>
+								    <td>Man City</td>
+								    <td><span>4-1</span></td>
+								    <td>Southampton</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+							    <tr>
+								    <td>12:45</td>
+								    <td>A Villa</td>
+								    <td><span>1-2</span></td>
+								    <td>Fulham</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+						    </table>	
+					    </div>
+					    <div>
+						    <table class="table-scores">
+							    <tr>
+								    <td>12:45</td>
+								    <td>Man City</td>
+								    <td><span>4-1</span></td>
+								    <td>Southampton</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+							    <tr>
+								    <td>12:45</td>
+								    <td>A Villa</td>
+								    <td><span>1-2</span></td>
+								    <td>Fulham</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+						    </table>
+					    </div>
+					    <div>
+						    <table class="table-scores">
+							    <tr>
+								    <td>12:45</td>
+								    <td>Cardiff</td>
+								    <td><span>0-3</span></td>
+								    <td>C Palace</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>	
+							    <tr>
+								    <td>12:45</td>
+								    <td>Man City</td>
+								    <td><span>4-1</span></td>
+								    <td>Southampton</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>
+							    <tr>
+								    <td>12:45</td>
+								    <td>A Villa</td>
+								    <td><span>1-2</span></td>
+								    <td>Fulham</td>
+								    <td><a href="#"><i class="fa fa-file-text"></i></a></td>
+							    </tr>																																													
+						    </table>
+					    </div>
+				      </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+
+    </section>
 
 	<footer class="clearfix">
+	 <div class="quicklinks">
 		<div class="m-12">
 			<div class="m-02">
-				<div class="module-content">
+				<div>
 					<h4>Learn more</h4>
 					<ul>					
 						<li><a href="#">Tour</a></li>
@@ -669,7 +766,7 @@
 				</div>
 			</div>
 			<div class="m-02">
-				<div class="module-content">
+				<div >
 					<h4>Support</h4>
 					<ul>
 						<li><a href="#">Terms of Service</a></li>
@@ -679,7 +776,7 @@
 				</div>
 			</div>
 			<div class="m-02">
-				<div class="module-content">
+				<div>
 					<h4>About</h4>					
 					<ul>
 						<li><a href="#">Company</a></li>
@@ -688,20 +785,22 @@
 					</ul>				
 				</div>
 			</div>
-			<div class="m-03">
-				<div class="module-content">
-					<h4>Social</h4>
-					<ul class="social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
+		</div>
+		<div class="m-03">
+			<div>
+				<ul class="social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="copyright bg-grey">
-			<p>|County Government of Embu|All rights reserved|</p>
+	 </div>
+		<div class="copyright ">
+			<p class="text">@copyright 2023| <span class="middle-text">Embu County Government</span> |All Rights Reserved</p>
+
 		</div>
 	</footer>
 	
